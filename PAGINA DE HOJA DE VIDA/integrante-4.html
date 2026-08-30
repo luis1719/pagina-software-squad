@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrante 4 | Hoja de vida</title>
+  <link rel="icon" type="image/svg+xml" href="imagenes/logo-cipa-software-squad.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="pagina-perfil">
+  <header class="encabezado">
+    <a class="marca" href="index.html#inicio" title="Ir al inicio"><img src="imagenes/logo-cipa-software-squad.svg" alt="Logo de Cipa Software Squad"> Cipa Software Squad</a>
+    <button class="boton-menu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" id="menu-principal" aria-label="Navegacion principal">
+      <a href="index.html#inicio">Inicio</a>
+      <a href="index.html#equipo">Integrantes</a>
+    </nav>
+  </header>
+
+  <main class="contenedor perfil" style="--color:#c39aff">
+    <section class="perfil-hero revelar" id="inicio">
+      <figure class="foto"><img src="imagenes/foto-perfil.svg" alt="Fotografía del integrante 4"></figure>
+      <div class="perfil-info">
+        <a class="volver" href="index.html#equipo">← Volver al equipo</a>
+        <p class="sobrelinea">Hoja de vida</p>
+        <h1>NOMBRE DEL INTEGRANTE 4</h1>
+        <p class="cargo">Estudiante de Ingeniería de Software</p>
+        <div class="contacto">
+          <span>Ciudad por agregar</span>
+          <span>Teléfono por agregar</span>
+          <span>Correo por agregar</span>
+        </div>
+        <div class="acciones-contacto">
+          <span class="boton boton-principal deshabilitado">Llamar</span>
+          <span class="boton boton-secundario deshabilitado">Enviar correo</span>
+          <span class="boton boton-secundario deshabilitado">Copiar correo</span>
+        </div>
+      </div>
+    </section>
+
+    <nav class="nav-secciones" aria-label="Secciones de la hoja de vida">
+      <a href="#perfil">Perfil</a>
+      <a href="#formacion">Formación</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#tecnicas">Técnicas</a>
+      <a href="#personales">Personales</a>
+      <a href="#objetivo">Objetivo</a>
+      <a href="#adicional">Adicional</a>
+      <a href="#competencias">Competencias</a>
+    </nav>
+
+    <section class="secciones">
+      <article class="panel panel-ancho revelar" id="perfil">
+        <p class="sobrelinea">Perfil profesional</p>
+        <h2>Presentación</h2>
+        <p>Espacio pendiente para agregar el perfil profesional real del integrante.</p>
+        <div class="datos-rapidos">
+          <span><strong>Nombre:</strong> Nombre completo</span>
+          <span><strong>Nacimiento:</strong> Día / mes / año</span>
+          <span><strong>Residencia:</strong> Ciudad por agregar</span>
+        </div>
+      </article>
+
+      <article class="panel revelar" id="formacion">
+        <p class="sobrelinea">Formación académica</p>
+        <h2>Estudios</h2>
+        <h3>Ingeniería de Software</h3>
+        <p>Nombre de la universidad · Actualidad</p>
+        <h3>Bachiller académico</h3>
+        <p>Nombre del colegio · Año pendiente</p>
+      </article>
+
+      <article class="panel revelar" id="experiencia">
+        <p class="sobrelinea">Experiencia laboral</p>
+        <h2>Proyectos</h2>
+        <h3>Proyecto académico</h3>
+        <p>Espacio pendiente para describir el proyecto, la función realizada y los aprendizajes.</p>
+      </article>
+
+      <article class="panel revelar" id="tecnicas">
+        <p class="sobrelinea">Habilidades técnicas</p>
+        <h2>Conocimientos</h2>
+        <details class="grupo-desplegable" open>
+          <summary>Área técnica pendiente</summary>
+          <ul><li>Bases de datos</li><li>Herramientas digitales</li></ul>
+        </details>
+      </article>
+
+      <article class="panel revelar" id="personales">
+        <p class="sobrelinea">Habilidades personales</p>
+        <h2>Cualidades</h2>
+        <ul class="lista-personal"><li>Dedicación</li><li>Adaptación</li><li>Deseos de superación</li></ul>
+      </article>
+
+      <article class="panel revelar" id="objetivo">
+        <p class="sobrelinea">Objetivo profesional</p>
+        <h2>Proyección</h2>
+        <p>Espacio pendiente para agregar el objetivo profesional real del integrante.</p>
+      </article>
+
+      <article class="panel revelar" id="adicional">
+        <p class="sobrelinea">Información adicional</p>
+        <h2>Complementos</h2>
+        <p>Espacio pendiente para idiomas, enlaces profesionales, intereses o disponibilidad.</p>
+      </article>
+
+      <article class="panel revelar" id="competencias">
+        <p class="sobrelinea">Competencias destacadas</p>
+        <h2>Fortalezas</h2>
+        <ul class="lista-personal"><li>Responsabilidad</li><li>Adaptación</li><li>Herramientas digitales</li></ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="pie navegacion-perfiles">
+    <a class="boton-nav" href="integrante-3.html">← Perfil anterior <span>Carlos José Miranda Tafur</span></a>
+    <a class="boton-nav boton-equipo" href="index.html#equipo">Volver al equipo</a>
+    <a class="boton-nav" href="integrante-1.html">Perfil siguiente → <span>Luis Alberto Lemus Rodríguez</span></a>
+  </footer>
+
+  <button class="volver-arriba" type="button" aria-label="Volver arriba">↑</button>
+  <div class="toast" role="status" aria-live="polite">Correo copiado</div>
+  <script src="js/interacciones.js"></script>
+</body>
+</html>
