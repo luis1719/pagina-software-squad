@@ -1,0 +1,10 @@
+PROYECTO: HOJAS DE VIDA - CIPA SOFTWARE SQUAD
+
+1. Abre esta carpeta en Visual Studio Code.
+2. La pagina principal es index.html.
+3. Los perfiles estan en integrante-1.html hasta integrante-3.html.
+4. Reemplaza o agrega fotografias reales en la carpeta imagenes cuando esten autorizadas.
+5. Si cambias el nombre de una imagen, actualiza tambien el atributo src de la etiqueta img.
+6. Los colores, animaciones y diseno estan en css/estilos.css.
+7. Las interacciones utiles estan en js/interacciones.js: navegacion activa, copiar correo, volver arriba y animaciones de entrada.
+8. Abre index.html en el navegador y comprueba todos los enlaces antes de entregar.
