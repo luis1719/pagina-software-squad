@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Cipa Software Squad">
+  <title>Cipa Software Squad | Hojas de vida</title>
+  <link rel="icon" type="image/svg+xml" href="imagenes/logo-cipa-software-squad.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>.rejilla{grid-template-columns:repeat(2,minmax(0,1fr))}.avatar-iniciales{color:#fff!important;background:linear-gradient(135deg,#8b5cf6,#2563eb)!important;font-size:30px;font-weight:900}@media(max-width:620px){.rejilla{grid-template-columns:1fr}}</style>
+  <style>.hero-panel-visual{display:flex;align-items:center;gap:18px;min-height:150px}.cerebro-presentacion{position:relative;inset:auto;width:170px;height:150px}.robot-boton img{animation:robot-flotar 4.8s ease-in-out infinite}.cerebro-presentacion img{animation:cerebro-pulso 4.2s ease-in-out infinite}@media(max-width:620px){.robot-stage{min-height:180px;align-items:center;gap:8px}.robot-boton{width:175px;height:175px}.robot-mensaje{max-width:150px;margin-bottom:0;font-size:12px}.hero-panel-visual{gap:10px;min-height:120px}.cerebro-presentacion{width:125px;height:110px}.hero-panel{min-height:340px}.hero-panel-texto{padding-top:22px}.robot-boton img{animation:robot-flotar 4.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){.robot-boton img,.cerebro-presentacion img{animation:none!important}}</style>
+</head>
+<body>
+  <header class="encabezado">
+    <a class="marca" href="#inicio" title="Ir al inicio"><img src="imagenes/logo-cipa-software-squad.svg" alt="Logo de Cipa Software Squad"> Cipa Software Squad</a>
+    <button class="boton-menu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" id="menu-principal" aria-label="Navegacion principal">
+      <a class="activo" href="#inicio">Inicio</a>
+      <a href="#equipo">Integrantes</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section class="hero hero-equipo" id="inicio">
+      <div class="hero-contenido revelar">
+        <div class="robot-stage">
+          <button class="robot-boton" type="button" aria-label="Saludar con el robot" aria-describedby="robot-mensaje">
+            <img src="imagenes/robot-cipa.svg" alt="Robot futurista amigable de Cipa Software Squad">
+          </button>
+          <p class="robot-mensaje" id="robot-mensaje" role="status" aria-live="polite">Listo para construir el futuro contigo.</p>
+        </div>
+        <p class="sobrelinea">Portafolio profesional</p>
+        <h1>CIPA SOFTWARE SQUAD</h1>
+        <p class="subtitulo">Talento, tecnología y futuro</p>
+        <p class="intro">
+          Conoce la formación, experiencia, habilidades y objetivos profesionales de los integrantes de Cipa Software Squad.
+        </p>
+        <a class="boton boton-principal" href="#equipo">Explorar equipo</a>
+      </div>
+      <a class="hero-panel revelar" id="universidad" href="#equipo" aria-label="Conocer integrantes de Cipa Software Squad">
+        <div class="hero-panel-visual">
+          <img class="logo-presentacion" src="imagenes/logo-cipa-software-squad.svg" alt="Logo de Cipa Software Squad">
+          <div class="cerebro-presentacion" aria-hidden="true"><img src="imagenes/cerebro-digital.svg" alt=""></div>
+        </div>
+        <div class="hero-panel-texto">
+          <p>Ingeniería de Software</p>
+          <strong>Universidad de Cartagena</strong>
+          <span>Perfiles académicos y profesionales en un espacio visual, moderno y fácil de consultar.</span>
+          <em>Conocer al equipo →</em>
+        </div>
+      </a>
+    </section>
+
+    <section class="equipo" id="equipo">
+      <div class="titulo-seccion revelar">
+        <div>
+          <p class="sobrelinea">Integrantes</p>
+          <h2>Equipo profesional</h2>
+        </div>
+        <p>Selecciona una hoja de vida para revisar la trayectoria, competencias y datos de contacto de cada integrante.</p>
+      </div>
+
+      <div class="rejilla">
+        <article class="tarjeta revelar" style="--color:#b9f451">
+          <span class="numero">Integrante 01</span>
+          <div class="avatar"><img src="imagenes/luis-alberto-lemus.jpg" alt="Fotografía de Luis Alberto Lemus Rodríguez"></div>
+          <h3>LUIS ALBERTO LEMUS RODRÍGUEZ</h3>
+          <p class="formacion">Ingeniería de Software y Gestión de Redes de Datos</p>
+          <p>Estudiante con conocimientos en programación, desarrollo web, bases de datos y redes de datos.</p>
+          <div class="tarjeta-acciones">
+            <a class="boton-tarjeta" href="integrante-1.html">Ver hoja de vida</a>
+            <a class="boton-tarjeta boton-web" href="https://luis1719.github.io/brasa-restaurante/" target="_blank" rel="noopener noreferrer">Ver página web del restaurante ↗</a>
+          </div>
+        </article>
+
+        <article class="tarjeta revelar" style="--color:#ff806b">
+          <span class="numero">Integrante 02</span>
+          <div class="avatar"><img src="imagenes/gustavo-andres-romero-campo.jpg" alt="Fotografía de Gustavo Andrés Romero Campo"></div>
+          <h3>GUSTAVO ANDRÉS ROMERO CAMPO</h3>
+          <p class="formacion">Economista, Técnico Profesional en Servicio de Policía y estudiante de Ingeniería de Software</p>
+          <p>Profesional con formación interdisciplinaria en economía, servicio público, administración y desarrollo de software.</p>
+          <div class="tarjeta-acciones">
+            <a class="boton-tarjeta" href="integrante-2.html">Ver hoja de vida</a>
+            <a class="boton-tarjeta boton-web" href="https://tavooromero.github.io/piko-y-pollo/" target="_blank" rel="noopener noreferrer">Ver página web Piko y Pollo ↗</a>
+          </div>
+        </article>
+
+        <article class="tarjeta revelar" style="--color:#59d7ff">
+          <span class="numero">Integrante 03</span>
+          <div class="avatar"><img src="imagenes/carlos-jose-miranda-tafur.jpg" alt="Fotografía de Carlos José Miranda Tafur"></div>
+          <h3>CARLOS JOSÉ MIRANDA TAFUR</h3>
+          <p class="formacion">Estudiante de Ingeniería de Software</p>
+          <p>Estudiante con conocimientos en desarrollo web, bases de datos, análisis de datos y administración de sistemas.</p>
+          <div class="tarjeta-acciones">
+            <a class="boton-tarjeta" href="integrantes/integrante-3/">Ver hoja de vida</a>
+            <a class="boton-tarjeta boton-web" href="https://cmirandat-oss.github.io/pagina-naturaleza/" target="_blank" rel="noopener noreferrer">Ver página web de naturaleza ↗</a>
+          </div>
+        </article>
+
+        <article class="tarjeta revelar" style="--color:#8b5cf6">
+          <span class="numero">Integrante 04</span>
+          <div class="avatar"><img src="imagenes/WhatsApp Image 2026-09-12 at 19.11.04.jpeg" alt="Fotografía de Leonardo David de Arco Romero"></div>
+          <h3>LEONARDO DAVID DE ARCO ROMERO</h3>
+          <p class="formacion">Estudiante de Ingeniería de Software</p>
+          <p>Estudiante de Ingeniería de Software con conocimientos en desarrollo web, bases de datos, análisis de datos y automatizaciones con inteligencia artificial.</p>
+          <div class="tarjeta-acciones">
+            <a class="boton-tarjeta" href="integrante-4.html">Ver hoja de vida</a>
+            <a class="boton-tarjeta boton-web" href="https://leonardodearco.netlify.app/" target="_blank" rel="noopener noreferrer">Ver página web de Leonardo ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">Actividad Unidad 1 y 2· Cipa Software Squad</footer>
+  <script src="js/interacciones.js"></script>
+</body>
+</html>
